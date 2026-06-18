@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a> | 
+            <a href="about.html">About Me</a> | 
+            <a href="gallery.html">Gallery</a> | 
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Send Us an Email</h1>
+        
+        <!-- Web Form Application -->
+        <form action="https://formspree.io" method="POST" class="contact-form">
+            <label>Your Name:</label><br>
+            <input type="text" name="name" required><br><br>
+
+            <label>Your Email Address:</label><br>
+            <input type="email" name="_replyto" required><br><br>
+
+            <label>Message:</label><br>
+            <textarea name="message" rows="5" required></textarea><br><br>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </main>
+    <footer><p>© 2026 My Web Project. All Rights Reserved.</p></footer>
+</body>
+</html>
